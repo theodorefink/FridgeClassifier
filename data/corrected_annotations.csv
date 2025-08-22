@@ -1,0 +1,79 @@
+annotation_id,annotator,choice,created_at,id,image,lead_time,updated_at,original_filename
+1,1,empty,2025-08-20T03:26:10.744063Z,1,/data/upload/1/d78d3c22-fridge_e_3.jpeg,8.88,2025-08-20T03:26:10.744083Z,fridge e 3.jpeg
+2,1,half-full,2025-08-20T03:26:16.726015Z,2,/data/upload/1/85d7afee-fridge_half_21.jpeg,3.441,2025-08-20T03:26:16.726038Z,fridge half 21.jpeg
+3,1,half-full,2025-08-20T03:26:20.903223Z,3,/data/upload/1/bfd3efe0-fridge_half_20.jpeg,2.867,2025-08-20T03:26:20.903246Z,fridge half 20.jpeg
+4,1,empty,2025-08-20T03:26:25.148321Z,4,/data/upload/1/ed708d95-fridge_e_2.jpeg,3.08,2025-08-20T03:26:25.148342Z,fridge e 2.jpeg
+5,1,empty,2025-08-20T03:26:29.723956Z,5,/data/upload/1/e079feac-fridge_e.jpeg,3.198,2025-08-20T03:26:29.723979Z,fridge e.jpeg
+6,1,half-full,2025-08-20T03:26:56.726259Z,6,/data/upload/1/843bfb66-fridge_half_19.jpeg,25.785,2025-08-20T03:26:56.726280Z,fridge half 19.jpeg
+7,1,half-full,2025-08-20T03:27:08.266995Z,7,/data/upload/1/e264f8e2-fridge_half_18.jpeg,3.154,2025-08-20T03:27:08.267012Z,fridge half 18.jpeg
+8,1,half-full,2025-08-20T03:27:10.773756Z,8,/data/upload/1/7cb6af4e-fridge_half_17.jpeg,1.565,2025-08-20T03:27:10.773771Z,fridge half 17.jpeg
+9,1,full,2025-08-20T03:27:17.169221Z,9,/data/upload/1/d0a3aaa5-fridge_half_16.jpeg,5.303,2025-08-20T03:27:17.169243Z,fridge half 16.jpeg
+10,1,half-full,2025-08-20T03:27:24.507099Z,10,/data/upload/1/89f0b0c9-fridge_half_15.jpeg,3.319,2025-08-20T03:27:24.507133Z,fridge half 15.jpeg
+11,1,half-full,2025-08-20T03:27:27.881306Z,11,/data/upload/1/aeb97b6f-fridge_half_14.jpeg,2.124,2025-08-20T03:27:27.881318Z,fridge half 14.jpeg
+12,1,half-full,2025-08-20T03:27:31.561084Z,12,/data/upload/1/663b0c80-fridge_half_13.jpeg,2.795,2025-08-20T03:27:31.561092Z,fridge half 13.jpeg
+13,1,half-full,2025-08-20T03:27:33.600239Z,13,/data/upload/1/60290737-fridge_half_12.jpeg,1.133,2025-08-20T03:27:33.600252Z,fridge half 12.jpeg
+14,1,half-full,2025-08-20T03:27:35.279676Z,14,/data/upload/1/ef486f32-fridge_half_11.jpeg,0.919,2025-08-20T03:27:35.279700Z,fridge half 11.jpeg
+15,1,half-full,2025-08-20T03:27:37.435595Z,15,/data/upload/1/78b35dcb-fridge_half_10.jpeg,1.305,2025-08-20T03:27:37.435609Z,fridge half 10.jpeg
+16,1,half-full,2025-08-20T03:27:41.635121Z,16,/data/upload/1/d9ca61b3-fridge_half_9.jpeg,1.374,2025-08-20T03:27:41.635141Z,fridge half 9.jpeg
+17,1,half-full,2025-08-20T03:27:43.463382Z,17,/data/upload/1/c77c3717-fridge_half_8.jpeg,0.997,2025-08-20T03:27:43.463395Z,fridge half 8.jpeg
+18,1,half-full,2025-08-20T03:27:45.803451Z,18,/data/upload/1/139fb11f-fridge_half_7.jpeg,1.005,2025-08-20T03:27:45.803464Z,fridge half 7.jpeg
+19,1,half-full,2025-08-20T03:27:49.558920Z,19,/data/upload/1/8671c3ee-fridge_half_6.jpeg,1.957,2025-08-20T03:27:49.558934Z,fridge half 6.jpeg
+20,1,half-full,2025-08-20T03:27:51.628503Z,20,/data/upload/1/d3fd2388-fridge_half_5.jpeg,1.228,2025-08-20T03:27:51.628513Z,fridge half 5.jpeg
+21,1,half-full,2025-08-20T03:27:53.704626Z,21,/data/upload/1/d1e79a13-fridge_half_4.jpeg,1.184,2025-08-20T03:27:53.704649Z,fridge half 4.jpeg
+22,1,half-full,2025-08-20T03:27:56.283814Z,22,/data/upload/1/32d1f996-fridge_half_3.jpeg,1.144,2025-08-20T03:27:56.283829Z,fridge half 3.jpeg
+23,1,half-full,2025-08-20T03:27:59.846411Z,23,/data/upload/1/a390a616-fridge_half_2.jpeg,1.172,2025-08-20T03:27:59.846426Z,fridge half 2.jpeg
+25,1,half-full,2025-08-20T03:28:03.906091Z,25,/data/upload/1/a1e7f80b-fridge_half.jpeg,1.239,2025-08-20T03:28:03.906108Z,fridge half.jpeg
+26,1,full,2025-08-20T03:28:07.532524Z,26,/data/upload/1/944aed6f-1abc76e0-a3d3-474b-ab6b-2046feb0e5cb.jpeg,2.689,2025-08-20T03:28:07.532535Z,1abc76e0-a3d3-474b-ab6b-2046feb0e5cb.jpeg
+29,1,full,2025-08-20T03:28:16.962284Z,29,/data/upload/1/49125e5e-9b7d961c-8cfd-432a-b659-0dfdbb0bc9a5.jpeg,2.164,2025-08-20T03:28:16.962303Z,9b7d961c-8cfd-432a-b659-0dfdbb0bc9a5.jpeg
+30,1,full,2025-08-20T03:28:19.178221Z,30,/data/upload/1/e3066e3b-8e25300f-241b-490f-9c46-b6ed9e037aaa.jpeg,1.074,2025-08-20T03:28:19.178236Z,8e25300f-241b-490f-9c46-b6ed9e037aaa.jpeg
+31,1,empty,2025-08-20T03:28:21.159943Z,31,/data/upload/1/2a2a6edf-3d6449c7-bf9e-4631-9645-f8c7b5d79040.jpeg,1.038,2025-08-20T03:28:21.159964Z,3d6449c7-bf9e-4631-9645-f8c7b5d79040.jpeg
+33,1,half-full,2025-08-20T03:28:24.562489Z,33,/data/upload/1/d229c972-25bc416e-e82a-4177-a10c-9aeb25dff76c.jpeg,0.764,2025-08-20T03:28:24.562498Z,25bc416e-e82a-4177-a10c-9aeb25dff76c.jpeg
+34,1,full,2025-08-20T03:28:26.768473Z,34,/data/upload/1/8f11448d-Lonely_fridge_shelf.jpeg,1.379,2025-08-20T03:28:26.768494Z,Lonely fridge shelf.jpeg
+38,1,full,2025-08-20T03:28:38.556403Z,38,/data/upload/1/d4f69fc9-696790cb-baef-4537-a904-aebdd2ad4191.jpeg,1.199,2025-08-20T03:28:38.556422Z,696790cb-baef-4537-a904-aebdd2ad4191.jpeg
+39,1,empty,2025-08-20T03:28:40.445645Z,39,/data/upload/1/c151220c-a0b456c8-da2b-40dd-b562-d6a0e902090a.jpeg,0.87,2025-08-20T03:28:40.445667Z,a0b456c8-da2b-40dd-b562-d6a0e902090a.jpeg
+41,1,half-full,2025-08-20T03:28:45.831147Z,41,/data/upload/1/1e1853bf-62fb35e6-dcea-4cec-9f3a-9d18fba3d46b.jpeg,1.09,2025-08-20T03:28:45.831170Z,62fb35e6-dcea-4cec-9f3a-9d18fba3d46b.jpeg
+43,1,empty,2025-08-20T03:28:49.902794Z,43,/data/upload/1/6dd29881-4ea00eb0-e341-422c-b1e3-5c503007a662.jpeg,0.953,2025-08-20T03:28:49.902806Z,4ea00eb0-e341-422c-b1e3-5c503007a662.jpeg
+44,1,empty,2025-08-20T03:28:52.067630Z,44,/data/upload/1/4dc0e2d0-old_ussr_fridge_open.jpeg,0.996,2025-08-20T03:28:52.067649Z,old ussr fridge open.jpeg
+45,1,full,2025-08-20T03:28:57.853229Z,45,/data/upload/1/a957647f-reuse_the_old_fridge.jpeg,3.198,2025-08-20T03:28:57.853254Z,reuse the old fridge.jpeg
+46,1,half-full,2025-08-20T03:28:59.682425Z,46,/data/upload/1/5ba8fa41-dream.jpeg,0.911,2025-08-20T03:28:59.682474Z,dream.jpeg
+47,1,half-full,2025-08-20T03:29:01.617050Z,47,/data/upload/1/e6b029fe-6754a8b9-e900-4409-a17f-8b750902900a.jpeg,1.119,2025-08-20T03:29:01.617072Z,6754a8b9-e900-4409-a17f-8b750902900a.jpeg
+50,1,empty,2025-08-20T03:29:13.587826Z,50,/data/upload/1/6fbfd788-7beeb8cd-bbc6-4138-b221-c38519a4011c.jpeg,2.796,2025-08-20T03:29:13.587835Z,7beeb8cd-bbc6-4138-b221-c38519a4011c.jpeg
+51,1,full,2025-08-20T03:29:15.568137Z,51,/data/upload/1/8b7883ed-688e4aab-510b-49cf-ab3e-eaea355fbc66.jpeg,0.815,2025-08-20T03:29:15.568146Z,688e4aab-510b-49cf-ab3e-eaea355fbc66.jpeg
+53,1,half-full,2025-08-20T03:29:22.293498Z,53,/data/upload/1/4d0e0049-3cf09b13-f5e0-41ed-8b62-218a892b55c6.jpeg,1.538,2025-08-20T03:29:22.293512Z,3cf09b13-f5e0-41ed-8b62-218a892b55c6.jpeg
+54,1,half-full,2025-08-20T03:29:24.070528Z,54,/data/upload/1/ea40d6ee-empty_fridge.jpeg,0.93,2025-08-20T03:29:24.070542Z,empty fridge.jpeg
+55,1,half-full,2025-08-20T03:29:25.928612Z,55,/data/upload/1/f0fe0df0-5a1010c3-941b-49e7-b1e6-30849291bc13.jpeg,1.023,2025-08-20T03:29:25.928633Z,5a1010c3-941b-49e7-b1e6-30849291bc13.jpeg
+56,1,half-full,2025-08-20T03:29:27.909594Z,56,/data/upload/1/eae7bdfd-59bc07e3-4e08-4514-933a-144b8911e6b5.jpeg,1.141,2025-08-20T03:29:27.909622Z,59bc07e3-4e08-4514-933a-144b8911e6b5.jpeg
+57,1,empty,2025-08-20T03:29:29.702942Z,57,/data/upload/1/113d5e38-Cleaned_Out_Fridge.jpeg,0.863,2025-08-20T03:29:29.702966Z,Cleaned Out Fridge.jpeg
+58,1,full,2025-08-20T03:29:31.681826Z,58,/data/upload/1/7ed8a05b-_Ever_opened_the_fridge_at_2_AM_and_been_greeted.jpeg,1.059,2025-08-20T03:29:31.681859Z,🌟 Ever opened the fridge at 2 AM and been greeted….jpeg
+59,1,full,2025-08-20T03:29:35.499307Z,59,/data/upload/1/54162f63-4c619dcc-bbe7-4f6e-92d6-c45343eba58d.jpeg,1.589,2025-08-20T03:29:35.499319Z,4c619dcc-bbe7-4f6e-92d6-c45343eba58d.jpeg
+60,1,half-full,2025-08-20T03:29:37.509341Z,60,/data/upload/1/5ca28f4d-2a8ce0da-baf0-4f73-837e-8b944c5f1ef6.jpeg,1.168,2025-08-20T03:29:37.509363Z,2a8ce0da-baf0-4f73-837e-8b944c5f1ef6.jpeg
+61,1,half-full,2025-08-20T03:29:39.654247Z,61,/data/upload/1/7cb90b28-3fa06b0f-dd25-4987-90b7-c2acac6f0104.jpeg,1.307,2025-08-20T03:29:39.654263Z,3fa06b0f-dd25-4987-90b7-c2acac6f0104.jpeg
+64,1,empty,2025-08-20T03:29:44.948732Z,64,/data/upload/1/13159852-a90e74d1-81d8-4c01-9231-0737d59673e6.jpeg,0.757,2025-08-20T03:29:44.948742Z,a90e74d1-81d8-4c01-9231-0737d59673e6.jpeg
+66,1,empty,2025-08-20T03:29:49.791362Z,66,/data/upload/1/41df1198-bf677886-d59d-4d17-8bb1-99d094995c4e.jpeg,1.106,2025-08-20T03:29:49.791384Z,bf677886-d59d-4d17-8bb1-99d094995c4e.jpeg
+67,1,full,2025-08-20T03:29:51.920978Z,67,/data/upload/1/0effcd00-Inside_of_my_fridge.jpeg,1.215,2025-08-20T03:29:51.920996Z,Inside of my fridge.jpeg
+68,1,empty,2025-08-20T03:29:53.922956Z,68,/data/upload/1/0cf0b68b-Teen_girl_by_the_empty_fridge_Premium_Ph.jpeg,1.167,2025-08-20T03:29:53.922974Z,Teen girl by the empty fridge Premium Ph….jpeg
+69,1,empty,2025-08-20T03:29:55.853633Z,69,/data/upload/1/4bd19d65-1c6e3d91-7ac2-492a-8097-f98f1237d190.jpeg,1.123,2025-08-20T03:29:55.853646Z,1c6e3d91-7ac2-492a-8097-f98f1237d190.jpeg
+70,1,half-full,2025-08-20T03:29:58.331162Z,70,/data/upload/1/c6a50c18-Easy_mess_clean_up_for_fridge.jpeg,1.624,2025-08-20T03:29:58.331185Z,Easy mess clean up for fridge.jpeg
+71,1,half-full,2025-08-20T03:30:03.581490Z,71,/data/upload/1/012d0904-92c2c48a-55f6-4a3e-91ca-530a99dca1d5.jpeg,2.26,2025-08-20T03:30:03.581518Z,92c2c48a-55f6-4a3e-91ca-530a99dca1d5.jpeg
+72,1,empty,2025-08-20T03:30:08.117002Z,72,/data/upload/1/b02914dd-670ce3b2-72ce-47a6-89d1-5e46d0033182.jpeg,3.692,2025-08-20T03:30:08.117013Z,670ce3b2-72ce-47a6-89d1-5e46d0033182.jpeg
+73,1,full,2025-08-20T03:30:12.248176Z,73,/data/upload/1/927951b1-df12662c-9cc1-4f34-8ddf-8a8371538d35.jpeg,1.977,2025-08-20T03:30:12.248194Z,df12662c-9cc1-4f34-8ddf-8a8371538d35.jpeg
+74,1,full,2025-08-20T03:30:13.949957Z,74,/data/upload/1/28c9a2f8-1775c095-3284-4f73-850b-05417403d0aa.jpeg,0.873,2025-08-20T03:30:13.949978Z,1775c095-3284-4f73-850b-05417403d0aa.jpeg
+76,1,half-full,2025-08-20T03:30:17.661412Z,76,/data/upload/1/54bb021c-99c1c4de-25f9-4c95-98de-78b49c2781b7.jpeg,0.888,2025-08-20T03:30:17.661425Z,99c1c4de-25f9-4c95-98de-78b49c2781b7.jpeg
+77,1,half-full,2025-08-20T03:30:19.603229Z,77,/data/upload/1/7025d794-My_refrigerator_and_cooking_are_a_source_of.jpeg,1.055,2025-08-20T03:30:19.603255Z,My refrigerator and cooking are a source of….jpeg
+78,1,full,2025-08-20T03:30:23.795280Z,78,/data/upload/1/6e78c92a-Over_stuffed_fridge.jpeg,1.78,2025-08-20T03:30:23.795294Z,Over stuffed fridge.jpeg
+79,1,empty,2025-08-20T03:30:25.381174Z,79,/data/upload/1/99c6820a-Depressed_empty_fridge_seeking_fun_dynamic_and.jpeg,0.756,2025-08-20T03:30:25.381188Z,empty fridge.jpeg
+80,1,half-full,2025-08-20T03:30:28.054384Z,80,/data/upload/1/4fbb206c-939a104d-220d-4830-a5e6-a9c4a55d311e.jpeg,1.89,2025-08-20T03:30:28.054400Z,939a104d-220d-4830-a5e6-a9c4a55d311e.jpeg
+81,1,half-full,2025-08-20T03:30:29.797423Z,81,/data/upload/1/d8e4a8b8-8620863f-746c-4975-b81a-b6c417d5430e.jpeg,0.979,2025-08-20T03:30:29.797450Z,8620863f-746c-4975-b81a-b6c417d5430e.jpeg
+82,1,half-full,2025-08-20T03:30:31.981284Z,82,/data/upload/1/aa1a65ea-da76193a-06c5-418f-ae74-a6adb453ce50.jpeg,1.233,2025-08-20T03:30:31.981296Z,da76193a-06c5-418f-ae74-a6adb453ce50.jpeg
+83,1,half-full,2025-08-20T03:30:34.915273Z,83,/data/upload/1/f042acd4-61d71118-984a-4fe1-a704-bdb5402a002f.jpeg,1.456,2025-08-20T03:30:34.915302Z,61d71118-984a-4fe1-a704-bdb5402a002f.jpeg
+84,1,empty,2025-08-20T03:30:37.092592Z,84,/data/upload/1/7ea84ac8-2a950057-cb3a-4ec7-bad9-356cbad8a2e3.jpeg,1.364,2025-08-20T03:30:37.092601Z,2a950057-cb3a-4ec7-bad9-356cbad8a2e3.jpeg
+85,1,half-full,2025-08-20T03:30:42.395192Z,85,/data/upload/1/732f5470-c6b9a22f-1822-4f7b-9893-8cc9a41c605d.jpeg,4.353,2025-08-20T03:30:42.395212Z,c6b9a22f-1822-4f7b-9893-8cc9a41c605d.jpeg
+87,1,full,2025-08-20T03:30:47.379979Z,87,/data/upload/1/a0984beb-3cf8d2e5-fdfc-4c0f-a556-c395ea13647e.jpeg,2.332,2025-08-20T03:30:47.379998Z,3cf8d2e5-fdfc-4c0f-a556-c395ea13647e.jpeg
+88,1,half-full,2025-08-20T03:30:51.476998Z,88,/data/upload/1/ed0a6451-c45e8ebf-813b-4820-9711-185aeef4cc70.jpeg,3.29,2025-08-20T03:30:51.477008Z,c45e8ebf-813b-4820-9711-185aeef4cc70.jpeg
+89,1,empty,2025-08-20T03:30:54.476468Z,89,/data/upload/1/fdfabd04-88990d08-a231-4b3a-a407-2c8a2a06e2b1.jpeg,1.305,2025-08-20T03:30:54.476493Z,88990d08-a231-4b3a-a407-2c8a2a06e2b1.jpeg
+90,1,half-full,2025-08-20T03:30:56.771523Z,90,/data/upload/1/e697157f-ff07d12c-f7fe-48df-822a-ae2bf1fcdbd7.jpeg,1.441,2025-08-20T03:30:56.771533Z,ff07d12c-f7fe-48df-822a-ae2bf1fcdbd7.jpeg
+91,1,half-full,2025-08-20T03:30:59.613285Z,91,/data/upload/1/cdcea654-ddcb3e0c-dde5-45ac-9a25-f04a13e79c0c.jpeg,2.018,2025-08-20T03:30:59.613306Z,ddcb3e0c-dde5-45ac-9a25-f04a13e79c0c.jpeg
+92,1,empty,2025-08-20T03:31:01.777929Z,92,/data/upload/1/4aaa06f2-a417f0e2-f27f-4cb6-86e1-e7e9a32c9985.jpeg,1.326,2025-08-20T03:31:01.777944Z,a417f0e2-f27f-4cb6-86e1-e7e9a32c9985.jpeg
+93,1,empty,2025-08-20T03:31:05.905516Z,93,/data/upload/1/f35ca8f4-empty_fridge_aesthetic_empty_clean_fridge_fride.jpeg,1.358,2025-08-20T03:31:05.905528Z,empty fridge aesthetic empty clean fridge fride….jpeg
+94,1,half-full,2025-08-20T03:31:07.995433Z,94,/data/upload/1/3c68b90f-33e5e286-b6df-4413-bf8c-7575ea5e6db4.jpeg,1.157,2025-08-20T03:31:07.995453Z,33e5e286-b6df-4413-bf8c-7575ea5e6db4.jpeg
+95,1,half-full,2025-08-20T03:31:10.252807Z,95,/data/upload/1/48133ffd-373587731610559887.jpeg,1.348,2025-08-20T03:31:10.252832Z,373587731610559887.jpeg

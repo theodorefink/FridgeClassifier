@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fridge Classifier</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        
+        .upload-area {
+            border: 3px dashed #667eea;
+            border-radius: 10px;
+            padding: 40px;
+            text-align: center;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .upload-area:hover {
+            border-color: #764ba2;
+            background-color: #f8f9ff;
+        }
+        
+        .upload-area.dragover {
+            border-color: #4CAF50;
+            background-color: #f0fff0;
+        }
+        
+        #file-input {
+            display: none;
+        }
+        
+        .upload-text {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        
+        .upload-subtext {
+            font-size: 14px;
+            color: #999;
+        }
+        
+        .btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 25px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin: 10px 5px;
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+        
+        .preview-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        .preview-image {
+            max-width: 100%;
+            max-height: 400px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .results {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f8f9ff;
+            border-radius: 10px;
+            border-left: 5px solid #667eea;
+        }
+        
+        .prediction {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .confidence {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        
+        .probabilities {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        .prob-item {
+            background: white;
+            padding: 10px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .prob-label {
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .prob-value {
+            color: #667eea;
+            font-size: 18px;
+        }
+        
+        .error {
+            color: #e74c3c;
+            background: #fdf2f2;
+            border: 1px solid #e74c3c;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        
+        .loading {
+            display: none;
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 10px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧊 Fridge Classifier</h1>
+        <p style="text-align: center; color: #666; margin-bottom: 30px;">
+            Upload a photo of a fridge to classify it as empty, half-full, or full!
+        </p>
+        
+        <div class="upload-area" id="upload-area">
+            <div class="upload-text">📁 Click to select a file or drag and drop</div>
+            <div class="upload-subtext">Supports JPG, PNG, and other image formats</div>
+            <input type="file" id="file-input" accept="image/*">
+        </div>
+        
+        <div style="text-align: center;">
+            <button class="btn" id="classify-btn" disabled>🔍 Classify Fridge</button>
+            <button class="btn" id="clear-btn" style="display: none;">🗑️ Clear</button>
+        </div>
+        
+        <div class="preview-container" id="preview-container" style="display: none;">
+            <img id="preview-image" class="preview-image" alt="Preview">
+        </div>
+        
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <div>Analyzing your fridge...</div>
+        </div>
+        
+        <div id="results" style="display: none;"></div>
+    </div>
+
+    <script>
+        const uploadArea = document.getElementById('upload-area');
+        const fileInput = document.getElementById('file-input');
+        const classifyBtn = document.getElementById('classify-btn');
+        const clearBtn = document.getElementById('clear-btn');
+        const previewContainer = document.getElementById('preview-container');
+        const previewImage = document.getElementById('preview-image');
+        const loading = document.getElementById('loading');
+        const results = document.getElementById('results');
+        
+        let selectedFile = null;
+        
+        // Upload area click handler
+        uploadArea.addEventListener('click', () => {
+            fileInput.click();
+        });
+        
+        // File input change handler
+        fileInput.addEventListener('change', handleFileSelect);
+        
+        // Drag and drop handlers
+        uploadArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadArea.classList.add('dragover');
+        });
+        
+        uploadArea.addEventListener('dragleave', () => {
+            uploadArea.classList.remove('dragover');
+        });
+        
+        uploadArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            uploadArea.classList.remove('dragover');
+            const files = e.dataTransfer.files;
+            if (files.length > 0) {
+                handleFile(files[0]);
+            }
+        });
+        
+        // Classify button handler
+        classifyBtn.addEventListener('click', classifyImage);
+        
+        // Clear button handler
+        clearBtn.addEventListener('click', clearAll);
+        
+        function handleFileSelect(e) {
+            const file = e.target.files[0];
+            if (file) {
+                handleFile(file);
+            }
+        }
+        
+        function handleFile(file) {
+            if (file && file.type.startsWith('image/')) {
+                selectedFile = file;
+                
+                const reader = new FileReader();
+                reader.onload = (e) => {
+                    previewImage.src = e.target.result;
+                    previewContainer.style.display = 'block';
+                    classifyBtn.disabled = false;
+                    clearBtn.style.display = 'inline-block';
+                    results.style.display = 'none';
+                };
+                reader.readAsDataURL(file);
+            } else {
+                alert('Please select a valid image file.');
+            }
+        }
+        
+        function classifyImage() {
+            if (!selectedFile) return;
+            
+            const formData = new FormData();
+            formData.append('file', selectedFile);
+            
+            loading.style.display = 'block';
+            classifyBtn.disabled = true;
+            results.style.display = 'none';
+            
+            fetch('/predict', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                loading.style.display = 'none';
+                classifyBtn.disabled = false;
+                
+                if (data.error) {
+                    results.innerHTML = `<div class="error">Error: ${data.error}</div>`;
+                } else {
+                    displayResults(data);
+                }
+                results.style.display = 'block';
+            })
+            .catch(error => {
+                loading.style.display = 'none';
+                classifyBtn.disabled = false;
+                results.innerHTML = `<div class="error">Error: ${error.message}</div>`;
+                results.style.display = 'block';
+            });
+        }
+        
+        function displayResults(data) {
+            const emoji = {
+                'empty': '📭',
+                'half-full': '📬',
+                'full': '📫'
+            };
+            
+            results.innerHTML = `
+                <div class="results">
+                    <div class="prediction">
+                        ${emoji[data.prediction] || '🧊'} Prediction: ${data.prediction.charAt(0).toUpperCase() + data.prediction.slice(1)}
+                    </div>
+                    <div class="confidence">Confidence: ${data.confidence}</div>
+                    
+                    <div class="probabilities">
+                        ${Object.entries(data.all_probabilities).map(([label, prob]) => `
+                            <div class="prob-item">
+                                <div class="prob-label">${emoji[label] || '🧊'} ${label.charAt(0).toUpperCase() + label.slice(1)}</div>
+                                <div class="prob-value">${prob}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+        }
+        
+        function clearAll() {
+            selectedFile = null;
+            fileInput.value = '';
+            previewContainer.style.display = 'none';
+            results.style.display = 'none';
+            loading.style.display = 'none';
+            classifyBtn.disabled = true;
+            clearBtn.style.display = 'none';
+        }
+    </script>
+</body>
+</html>

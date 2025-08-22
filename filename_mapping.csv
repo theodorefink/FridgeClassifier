@@ -1,0 +1,96 @@
+annotation_id,label_studio_path,extracted_original,matched_file,choice,match_found
+1,/data/upload/1/d78d3c22-fridge_e_3.jpeg,fridge e 3.jpeg,fridge e 3.jpeg,empty,True
+2,/data/upload/1/85d7afee-fridge_half_21.jpeg,fridge half 21.jpeg,fridge half 21.jpeg,half-full,True
+3,/data/upload/1/bfd3efe0-fridge_half_20.jpeg,fridge half 20.jpeg,fridge half 20.jpeg,half-full,True
+4,/data/upload/1/ed708d95-fridge_e_2.jpeg,fridge e 2.jpeg,fridge e 2.jpeg,empty,True
+5,/data/upload/1/e079feac-fridge_e.jpeg,fridge e.jpeg,fridge e.jpeg,empty,True
+6,/data/upload/1/843bfb66-fridge_half_19.jpeg,fridge half 19.jpeg,fridge half 19.jpeg,half-full,True
+7,/data/upload/1/e264f8e2-fridge_half_18.jpeg,fridge half 18.jpeg,fridge half 18.jpeg,half-full,True
+8,/data/upload/1/7cb6af4e-fridge_half_17.jpeg,fridge half 17.jpeg,fridge half 17.jpeg,half-full,True
+9,/data/upload/1/d0a3aaa5-fridge_half_16.jpeg,fridge half 16.jpeg,fridge half 16.jpeg,full,True
+10,/data/upload/1/89f0b0c9-fridge_half_15.jpeg,fridge half 15.jpeg,fridge half 15.jpeg,half-full,True
+11,/data/upload/1/aeb97b6f-fridge_half_14.jpeg,fridge half 14.jpeg,fridge half 14.jpeg,half-full,True
+12,/data/upload/1/663b0c80-fridge_half_13.jpeg,fridge half 13.jpeg,fridge half 13.jpeg,half-full,True
+13,/data/upload/1/60290737-fridge_half_12.jpeg,fridge half 12.jpeg,fridge half 12.jpeg,half-full,True
+14,/data/upload/1/ef486f32-fridge_half_11.jpeg,fridge half 11.jpeg,fridge half 11.jpeg,half-full,True
+15,/data/upload/1/78b35dcb-fridge_half_10.jpeg,fridge half 10.jpeg,fridge half 10.jpeg,half-full,True
+16,/data/upload/1/d9ca61b3-fridge_half_9.jpeg,fridge half 9.jpeg,fridge half 9.jpeg,half-full,True
+17,/data/upload/1/c77c3717-fridge_half_8.jpeg,fridge half 8.jpeg,fridge half 8.jpeg,half-full,True
+18,/data/upload/1/139fb11f-fridge_half_7.jpeg,fridge half 7.jpeg,fridge half 7.jpeg,half-full,True
+19,/data/upload/1/8671c3ee-fridge_half_6.jpeg,fridge half 6.jpeg,fridge half 6.jpeg,half-full,True
+20,/data/upload/1/d3fd2388-fridge_half_5.jpeg,fridge half 5.jpeg,fridge half 5.jpeg,half-full,True
+21,/data/upload/1/d1e79a13-fridge_half_4.jpeg,fridge half 4.jpeg,fridge half 4.jpeg,half-full,True
+22,/data/upload/1/32d1f996-fridge_half_3.jpeg,fridge half 3.jpeg,fridge half 3.jpeg,half-full,True
+23,/data/upload/1/a390a616-fridge_half_2.jpeg,fridge half 2.jpeg,fridge half 2.jpeg,half-full,True
+24,/data/upload/1/54ac35b0-5990120605_9140599c06_b.jpg,5990120605 9140599c06 b.jpg,,half-full,False
+25,/data/upload/1/a1e7f80b-fridge_half.jpeg,fridge half.jpeg,fridge half.jpeg,half-full,True
+26,/data/upload/1/944aed6f-1abc76e0-a3d3-474b-ab6b-2046feb0e5cb.jpeg,1abc76e0-a3d3-474b-ab6b-2046feb0e5cb.jpeg,1abc76e0-a3d3-474b-ab6b-2046feb0e5cb.jpeg,full,True
+27,/data/upload/1/fb3cc2ae-Love_the_HUGE_frost-free_refrigerator_.jpeg,Love the HUGE frost-free refrigerator .jpeg,,empty,False
+28,/data/upload/1/e911fbd2-Office_fridge_in_the_morning_.jpeg,Office fridge in the morning .jpeg,,empty,False
+29,/data/upload/1/49125e5e-9b7d961c-8cfd-432a-b659-0dfdbb0bc9a5.jpeg,9b7d961c-8cfd-432a-b659-0dfdbb0bc9a5.jpeg,9b7d961c-8cfd-432a-b659-0dfdbb0bc9a5.jpeg,full,True
+30,/data/upload/1/e3066e3b-8e25300f-241b-490f-9c46-b6ed9e037aaa.jpeg,8e25300f-241b-490f-9c46-b6ed9e037aaa.jpeg,8e25300f-241b-490f-9c46-b6ed9e037aaa.jpeg,full,True
+31,/data/upload/1/2a2a6edf-3d6449c7-bf9e-4631-9645-f8c7b5d79040.jpeg,3d6449c7-bf9e-4631-9645-f8c7b5d79040.jpeg,3d6449c7-bf9e-4631-9645-f8c7b5d79040.jpeg,empty,True
+32,/data/upload/1/9db0036f-Organizacao_da_geladeira_e_congelador.jpeg,Organizacao da geladeira e congelador.jpeg,,empty,False
+33,/data/upload/1/d229c972-25bc416e-e82a-4177-a10c-9aeb25dff76c.jpeg,25bc416e-e82a-4177-a10c-9aeb25dff76c.jpeg,25bc416e-e82a-4177-a10c-9aeb25dff76c.jpeg,half-full,True
+34,/data/upload/1/8f11448d-Lonely_fridge_shelf.jpeg,Lonely fridge shelf.jpeg,Lonely fridge shelf.jpeg,full,True
+35,/data/upload/1/b7e256c5-Day_1_of_week_1___Clean_out_fridge__freezer.jpeg,Day 1 of week 1   Clean out fridge  freezer.jpeg,,full,False
+36,/data/upload/1/c36e3b7f-fill_your_fridge_with_healthy_foods__you_will_eat.jpeg,fill your fridge with healthy foods  you will eat.jpeg,,full,False
+37,/data/upload/1/7c17b39a-Groceries_food_fridge_aesthetic.jpeg,Groceries food fridge aesthetic.jpeg,,half-full,False
+38,/data/upload/1/d4f69fc9-696790cb-baef-4537-a904-aebdd2ad4191.jpeg,696790cb-baef-4537-a904-aebdd2ad4191.jpeg,696790cb-baef-4537-a904-aebdd2ad4191.jpeg,full,True
+39,/data/upload/1/c151220c-a0b456c8-da2b-40dd-b562-d6a0e902090a.jpeg,a0b456c8-da2b-40dd-b562-d6a0e902090a.jpeg,a0b456c8-da2b-40dd-b562-d6a0e902090a.jpeg,empty,True
+40,/data/upload/1/020a66d8-8_18_22_iamgoldsmith.jpeg,8 18 22 iamgoldsmith.jpeg,,half-full,False
+41,/data/upload/1/1e1853bf-62fb35e6-dcea-4cec-9f3a-9d18fba3d46b.jpeg,62fb35e6-dcea-4cec-9f3a-9d18fba3d46b.jpeg,62fb35e6-dcea-4cec-9f3a-9d18fba3d46b.jpeg,half-full,True
+42,/data/upload/1/e177e7a0-DANA_AL-HAMIDI___Okay_we_are_back_to_our_normal_1.jpeg,DANA AL-HAMIDI   Okay we are back to our normal 1.jpeg,,full,False
+43,/data/upload/1/6dd29881-4ea00eb0-e341-422c-b1e3-5c503007a662.jpeg,4ea00eb0-e341-422c-b1e3-5c503007a662.jpeg,4ea00eb0-e341-422c-b1e3-5c503007a662.jpeg,empty,True
+44,/data/upload/1/4dc0e2d0-old_ussr_fridge_open.jpeg,old ussr fridge open.jpeg,old ussr fridge open.jpeg,empty,True
+45,/data/upload/1/a957647f-reuse_the_old_fridge.jpeg,reuse the old fridge.jpeg,reuse the old fridge.jpeg,full,True
+46,/data/upload/1/5ba8fa41-dream.jpeg,dream.jpeg,dream.jpeg,half-full,True
+47,/data/upload/1/e6b029fe-6754a8b9-e900-4409-a17f-8b750902900a.jpeg,6754a8b9-e900-4409-a17f-8b750902900a.jpeg,6754a8b9-e900-4409-a17f-8b750902900a.jpeg,half-full,True
+48,/data/upload/1/4ef4e594-Cleaning_a_fridge__10_steps_to_sanitize_yours.jpeg,Cleaning a fridge  10 steps to sanitize yours.jpeg,,empty,False
+49,/data/upload/1/cb05cc51-Our_fridge_in_Tel_Aviv_.jpeg,Our fridge in Tel Aviv .jpeg,,full,False
+50,/data/upload/1/6fbfd788-7beeb8cd-bbc6-4138-b221-c38519a4011c.jpeg,7beeb8cd-bbc6-4138-b221-c38519a4011c.jpeg,7beeb8cd-bbc6-4138-b221-c38519a4011c.jpeg,empty,True
+51,/data/upload/1/8b7883ed-688e4aab-510b-49cf-ab3e-eaea355fbc66.jpeg,688e4aab-510b-49cf-ab3e-eaea355fbc66.jpeg,688e4aab-510b-49cf-ab3e-eaea355fbc66.jpeg,full,True
+52,/data/upload/1/64d36821-miam_fridge_bruh_pashealthy_healthy.jpeg,miam fridge bruh pashealthy healthy.jpeg,,half-full,False
+53,/data/upload/1/4d0e0049-3cf09b13-f5e0-41ed-8b62-218a892b55c6.jpeg,3cf09b13-f5e0-41ed-8b62-218a892b55c6.jpeg,3cf09b13-f5e0-41ed-8b62-218a892b55c6.jpeg,half-full,True
+54,/data/upload/1/ea40d6ee-empty_fridge.jpeg,empty fridge.jpeg,empty fridge.jpeg,half-full,True
+55,/data/upload/1/f0fe0df0-5a1010c3-941b-49e7-b1e6-30849291bc13.jpeg,5a1010c3-941b-49e7-b1e6-30849291bc13.jpeg,5a1010c3-941b-49e7-b1e6-30849291bc13.jpeg,half-full,True
+56,/data/upload/1/eae7bdfd-59bc07e3-4e08-4514-933a-144b8911e6b5.jpeg,59bc07e3-4e08-4514-933a-144b8911e6b5.jpeg,59bc07e3-4e08-4514-933a-144b8911e6b5.jpeg,half-full,True
+57,/data/upload/1/113d5e38-Cleaned_Out_Fridge.jpeg,Cleaned Out Fridge.jpeg,Cleaned Out Fridge.jpeg,empty,True
+58,/data/upload/1/7ed8a05b-_Ever_opened_the_fridge_at_2_AM_and_been_greeted.jpeg, Ever opened the fridge at 2 AM and been greeted.jpeg,🌟 Ever opened the fridge at 2 AM and been greeted….jpeg,full,True
+59,/data/upload/1/54162f63-4c619dcc-bbe7-4f6e-92d6-c45343eba58d.jpeg,4c619dcc-bbe7-4f6e-92d6-c45343eba58d.jpeg,4c619dcc-bbe7-4f6e-92d6-c45343eba58d.jpeg,full,True
+60,/data/upload/1/5ca28f4d-2a8ce0da-baf0-4f73-837e-8b944c5f1ef6.jpeg,2a8ce0da-baf0-4f73-837e-8b944c5f1ef6.jpeg,2a8ce0da-baf0-4f73-837e-8b944c5f1ef6.jpeg,half-full,True
+61,/data/upload/1/7cb90b28-3fa06b0f-dd25-4987-90b7-c2acac6f0104.jpeg,3fa06b0f-dd25-4987-90b7-c2acac6f0104.jpeg,3fa06b0f-dd25-4987-90b7-c2acac6f0104.jpeg,half-full,True
+62,/data/upload/1/772871ee-aesthetic_movingforward_foryoupage_foodporn.jpeg,aesthetic movingforward foryoupage foodporn.jpeg,,full,False
+63,/data/upload/1/ffe8795b-DANA_AL-HAMIDI___Okay_we_are_back_to_our_normal.jpeg,DANA AL-HAMIDI   Okay we are back to our normal.jpeg,,full,False
+64,/data/upload/1/13159852-a90e74d1-81d8-4c01-9231-0737d59673e6.jpeg,a90e74d1-81d8-4c01-9231-0737d59673e6.jpeg,a90e74d1-81d8-4c01-9231-0737d59673e6.jpeg,empty,True
+65,/data/upload/1/a2f1d7b7-SubZero_30__refrigerator_freezer_with_custom_panel.jpeg,SubZero 30  refrigerator freezer with custom panel.jpeg,,half-full,False
+66,/data/upload/1/41df1198-bf677886-d59d-4d17-8bb1-99d094995c4e.jpeg,bf677886-d59d-4d17-8bb1-99d094995c4e.jpeg,bf677886-d59d-4d17-8bb1-99d094995c4e.jpeg,empty,True
+67,/data/upload/1/0effcd00-Inside_of_my_fridge.jpeg,Inside of my fridge.jpeg,Inside of my fridge.jpeg,full,True
+68,/data/upload/1/0cf0b68b-Teen_girl_by_the_empty_fridge_Premium_Ph.jpeg,Teen girl by the empty fridge Premium Ph.jpeg,Teen girl by the empty fridge Premium Ph….jpeg,empty,True
+69,/data/upload/1/4bd19d65-1c6e3d91-7ac2-492a-8097-f98f1237d190.jpeg,1c6e3d91-7ac2-492a-8097-f98f1237d190.jpeg,1c6e3d91-7ac2-492a-8097-f98f1237d190.jpeg,empty,True
+70,/data/upload/1/c6a50c18-Easy_mess_clean_up_for_fridge.jpeg,Easy mess clean up for fridge.jpeg,Easy mess clean up for fridge.jpeg,half-full,True
+71,/data/upload/1/012d0904-92c2c48a-55f6-4a3e-91ca-530a99dca1d5.jpeg,92c2c48a-55f6-4a3e-91ca-530a99dca1d5.jpeg,92c2c48a-55f6-4a3e-91ca-530a99dca1d5.jpeg,half-full,True
+72,/data/upload/1/b02914dd-670ce3b2-72ce-47a6-89d1-5e46d0033182.jpeg,670ce3b2-72ce-47a6-89d1-5e46d0033182.jpeg,670ce3b2-72ce-47a6-89d1-5e46d0033182.jpeg,empty,True
+73,/data/upload/1/927951b1-df12662c-9cc1-4f34-8ddf-8a8371538d35.jpeg,df12662c-9cc1-4f34-8ddf-8a8371538d35.jpeg,df12662c-9cc1-4f34-8ddf-8a8371538d35.jpeg,full,True
+74,/data/upload/1/28c9a2f8-1775c095-3284-4f73-850b-05417403d0aa.jpeg,1775c095-3284-4f73-850b-05417403d0aa.jpeg,1775c095-3284-4f73-850b-05417403d0aa.jpeg,full,True
+75,/data/upload/1/33fe5ebc-Help_fill_the_Denver_Rescue_Missions_fridge_.jpeg,Help fill the Denver Rescue Missions fridge .jpeg,,empty,False
+76,/data/upload/1/54bb021c-99c1c4de-25f9-4c95-98de-78b49c2781b7.jpeg,99c1c4de-25f9-4c95-98de-78b49c2781b7.jpeg,99c1c4de-25f9-4c95-98de-78b49c2781b7.jpeg,half-full,True
+77,/data/upload/1/7025d794-My_refrigerator_and_cooking_are_a_source_of.jpeg,My refrigerator and cooking are a source of.jpeg,My refrigerator and cooking are a source of….jpeg,half-full,True
+78,/data/upload/1/6e78c92a-Over_stuffed_fridge.jpeg,Over stuffed fridge.jpeg,Over stuffed fridge.jpeg,full,True
+79,/data/upload/1/99c6820a-Depressed_empty_fridge_seeking_fun_dynamic_and.jpeg,Depressed empty fridge seeking fun dynamic and.jpeg,empty fridge.jpeg,empty,True
+80,/data/upload/1/4fbb206c-939a104d-220d-4830-a5e6-a9c4a55d311e.jpeg,939a104d-220d-4830-a5e6-a9c4a55d311e.jpeg,939a104d-220d-4830-a5e6-a9c4a55d311e.jpeg,half-full,True
+81,/data/upload/1/d8e4a8b8-8620863f-746c-4975-b81a-b6c417d5430e.jpeg,8620863f-746c-4975-b81a-b6c417d5430e.jpeg,8620863f-746c-4975-b81a-b6c417d5430e.jpeg,half-full,True
+82,/data/upload/1/aa1a65ea-da76193a-06c5-418f-ae74-a6adb453ce50.jpeg,da76193a-06c5-418f-ae74-a6adb453ce50.jpeg,da76193a-06c5-418f-ae74-a6adb453ce50.jpeg,half-full,True
+83,/data/upload/1/f042acd4-61d71118-984a-4fe1-a704-bdb5402a002f.jpeg,61d71118-984a-4fe1-a704-bdb5402a002f.jpeg,61d71118-984a-4fe1-a704-bdb5402a002f.jpeg,half-full,True
+84,/data/upload/1/7ea84ac8-2a950057-cb3a-4ec7-bad9-356cbad8a2e3.jpeg,2a950057-cb3a-4ec7-bad9-356cbad8a2e3.jpeg,2a950057-cb3a-4ec7-bad9-356cbad8a2e3.jpeg,empty,True
+85,/data/upload/1/732f5470-c6b9a22f-1822-4f7b-9893-8cc9a41c605d.jpeg,c6b9a22f-1822-4f7b-9893-8cc9a41c605d.jpeg,c6b9a22f-1822-4f7b-9893-8cc9a41c605d.jpeg,half-full,True
+86,/data/upload/1/598a7577-Its_so_much_nicer_to_put_away_new_groceries_when.jpeg,Its so much nicer to put away new groceries when.jpeg,,half-full,False
+87,/data/upload/1/a0984beb-3cf8d2e5-fdfc-4c0f-a556-c395ea13647e.jpeg,3cf8d2e5-fdfc-4c0f-a556-c395ea13647e.jpeg,3cf8d2e5-fdfc-4c0f-a556-c395ea13647e.jpeg,full,True
+88,/data/upload/1/ed0a6451-c45e8ebf-813b-4820-9711-185aeef4cc70.jpeg,c45e8ebf-813b-4820-9711-185aeef4cc70.jpeg,c45e8ebf-813b-4820-9711-185aeef4cc70.jpeg,half-full,True
+89,/data/upload/1/fdfabd04-88990d08-a231-4b3a-a407-2c8a2a06e2b1.jpeg,88990d08-a231-4b3a-a407-2c8a2a06e2b1.jpeg,88990d08-a231-4b3a-a407-2c8a2a06e2b1.jpeg,empty,True
+90,/data/upload/1/e697157f-ff07d12c-f7fe-48df-822a-ae2bf1fcdbd7.jpeg,ff07d12c-f7fe-48df-822a-ae2bf1fcdbd7.jpeg,ff07d12c-f7fe-48df-822a-ae2bf1fcdbd7.jpeg,half-full,True
+91,/data/upload/1/cdcea654-ddcb3e0c-dde5-45ac-9a25-f04a13e79c0c.jpeg,ddcb3e0c-dde5-45ac-9a25-f04a13e79c0c.jpeg,ddcb3e0c-dde5-45ac-9a25-f04a13e79c0c.jpeg,half-full,True
+92,/data/upload/1/4aaa06f2-a417f0e2-f27f-4cb6-86e1-e7e9a32c9985.jpeg,a417f0e2-f27f-4cb6-86e1-e7e9a32c9985.jpeg,a417f0e2-f27f-4cb6-86e1-e7e9a32c9985.jpeg,empty,True
+93,/data/upload/1/f35ca8f4-empty_fridge_aesthetic_empty_clean_fridge_fride.jpeg,empty fridge aesthetic empty clean fridge fride.jpeg,empty fridge aesthetic empty clean fridge fride….jpeg,empty,True
+94,/data/upload/1/3c68b90f-33e5e286-b6df-4413-bf8c-7575ea5e6db4.jpeg,33e5e286-b6df-4413-bf8c-7575ea5e6db4.jpeg,33e5e286-b6df-4413-bf8c-7575ea5e6db4.jpeg,half-full,True
+95,/data/upload/1/48133ffd-373587731610559887.jpeg,373587731610559887.jpeg,373587731610559887.jpeg,half-full,True
