@@ -10,4 +10,4 @@ The FridgeClassifier prototype is a simple ResNet18 AI model that was trained on
 
 * To use: run fridgeapp.py and open the link, which will open a browser tab with the front end where you can upload a photo of a fridge to classify.
 
-* See the full shared repo including a route generation prototype here [text](https://github.com/Lachyzzz1/KaiConnect)
+* See the full shared repo including a route generation prototype [here](https://github.com/Lachyzzz1/KaiConnect)
